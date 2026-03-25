@@ -160,8 +160,9 @@ def draw_track(frame, pts):
         thickness = max(1, int(5 - i * 0.15))
         cv2.line(frame, pts[i - 1], pts[i], (0, 180, 255), thickness)
 
-
+CITATION = "Jocher, G., & Qiu, J. (2026). Ultralytics YOLO26 (v26.0.0). GitHub."
 def main():
+    print(f"Créditos pelo uso do Yolo: {CITATION}")
     if not Path(VIDEO_PATH).exists():
         raise FileNotFoundError(f"Vídeo não encontrado: {VIDEO_PATH}")
 

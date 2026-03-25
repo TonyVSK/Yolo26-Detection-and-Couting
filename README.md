@@ -14,3 +14,16 @@ pip install -r requirements.txt
 ```
 python.exe index.py
 ```
+
+
+## REFERENCES AND CITATIONS
+```
+    @software{yolo26_ultralytics,
+      author = {Glenn Jocher and Jing Qiu},
+      title = {Ultralytics YOLO26},
+      version = {26.0.0},
+      year = {2026},
+      url = {https://github.com/ultralytics/ultralytics},
+      license = {AGPL-3.0}
+    }
+```
